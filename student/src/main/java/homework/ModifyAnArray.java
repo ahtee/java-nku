@@ -5,8 +5,10 @@
 
 /**
  *
- * @author ottebdrum
+ * @author Ben Otte
  */
+package ModifyAnArray;
+
 import java.util.Scanner;
 public class ModifyAnArray {
 	public static void main(String args[]) {

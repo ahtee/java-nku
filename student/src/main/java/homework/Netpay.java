@@ -6,7 +6,7 @@
 
 import javax.swing.*;
 
-public class prog1 { 
+public class Netpay { 
 	public static void main( String[] args) {
 		String  hwage, hworked;
 		double hourly_wage, net_pay, fica;

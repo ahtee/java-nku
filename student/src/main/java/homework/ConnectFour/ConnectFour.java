@@ -2,7 +2,7 @@
  * @(#)connectFour.java
  *
  *
- * @author 
+ * @author Ben Otte
  * @version 1.00 2013/3/19
  */
 
@@ -18,11 +18,11 @@ public class ConnectFour {
     	char [][] board = new char [6][7]; 
     	initBoard(board);
     	printBoard(board);
-    	int result = playgame();
+    	int result = playGame();
     }
     
       public static void initBoard (char [] [] bd ){
-    	for ( int r = 0; r < 6; r++)
+    	for (int r = 0; r < 6; r++)
     		for (int c = 0; c < 7; c++)
     			bd[r][c] = ' ';
     	for ( int x = 0; x < next.length; x++)
@@ -49,7 +49,7 @@ public class ConnectFour {
     	next[move]++;
 		}
     
-	 	static void playGame() {
+	 	public static void playGame() {
     		Scanner input = new Scanner(System.in);
     		Random generator = new Random();
     		playerMove(input );
